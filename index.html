@@ -4,8 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2017.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2018.css">
 <style>
   html,
   body,
@@ -19,93 +23,152 @@
   }
 </style>
 
-<body class="w3-light-grey">
+
+<body class="w3-2018-little-boy-blue">
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a class="w3-text-black w3-wide w3-margin-left w3-padding" style="font-size:50px">BEN GUIDOLIN</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+<br>
 
   <!-- Page Container -->
+  <div class="w3-bar w3-padding-16"></div><br>
   <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
     <!-- The Grid -->
     <div class="w3-row-padding">
 
       <!-- Left Column -->
-      <div class="w3-third">
+      <div class="w3-quarter">
 
-        <div class="w3-teal w3-text-grey w3-card-4">
+        <div class="w3-white w3-text-grey w3-card-4 w3-round-xlarge">
           <div class="w3-display-container">
             <img src="./images/sxAE4aSg_clipped_rev_1.png" style="width:100%" alt="Avatar">
-            <div class="w3-display-bottomleft w3-container w3-text-white">
-              <h2>Ben Guidolin</h2>
-            </div>
           </div>
-          <div class="w3-container w3-white">
-            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Medical Student/Developer</p>
-            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Vancouver, BC</p>
-            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>bguids91@gmail.com</p>
-            <hr>
+        </div>
 
-            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>About Me</b></p>
-            <p>I am a third year medical student at the University of British Columbia with a passion for
-              medicine and technology.</p>
+          <br>
 
-            <br>
+        <div class="w3-container w3-white w3-center w3-round-xlarge">
+          <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-linkedin fa-3x"></i></a>
+          <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-github fa-3x"></i></a>
+          <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-twitter fa-3x"></i></a>
+          <br>
+        </div>
 
-            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-            <p><img src="./images/bootstrap-icon.svg"></p>
-        </div><br>
+        <br>
+
+          <div class="w3-container w3-white w3-round-xlarge">
+          <br>
+          <h5><i class="fa fa-briefcase fa-fw w3-margin-right fa-1x w3-padding"></i>Medical Student/Developer</h5>
+          <h5><i class="fa fa-globe fa-fw w3-margin-right fa-1x w3-padding"></i>Vancouver, BC</h5>
+          <h5><i class="fa fa-envelope fa-fw w3-margin-right fa-1x w3-padding"></i>bguids91@gmail.com</h5>
+          <br>
+          </div>
+
+          <br>
+
+          <div class="w3-container w3-white w3-round-xlarge">
+          <h3 class="w3-padding">ABOUT ME</h3>
+              <h5 class="w3-padding">I am a third year medical student at the University of British Columbia with a passion for
+                medicine and technology.</h5>
+              <br>
+          </div>
+
+          <br>
+
+        <div class="w3-container w3-white w3-round-xlarge">
+        <h3 class="w3-padding">LANGUAGES/PROGRAMS</h3>
+            <p class="w3-padding w3-center"><img src="./images/bootstrap-icon.svg" style="width:31%">
+              <img src="./images/css-icon.svg" style="width:31%">
+              <img src="./images/express -icon.svg" style="width:31%"></p>
+              <p class="w3-padding"><img src="./images/heroku-icon.svg" style="width:31%">
+              <img src="./images/html-icon.svg" style="width:31%">
+              <img src="./images/jquery-icon.svg" style="width:31%"></p>
+              <p class="w3-padding"><img src="./images/js-icon.svg" style="width:31%">
+              <img src="./images/node-icon.svg" style="width:31%">
+              <img src="./images/npm-icon.svg" style="width:31%"></p>
+              <p class="w3-padding"><img src="./images/psql-icon.svg" style="width:31%">
+              <img src="./images/sass-icon.svg" style="width:31%">
+              <img src="./images/photoshop-icon.svg" style="width:31%"></p>
+          </div>
+
+        <br>
 
         <!-- End Left Column -->
       </div>
 
       <!-- Right Column -->
-      <div class="w3-twothird">
+      <div class="w3-half">
 
-        <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work
-            Experience</h2>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit
-              sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+        <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-xlarge">
+        <h2 class="w3-margin">WORK EXPERIENCE</h2>
+            <h5 class="w3-margin-left w3-margin-right">MEDICAL STUDENT INTERN / <b>CURATIO.ME</b>
+              <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/4a/5d/6c/4a5d6c34-28e2-e90b-80b6-48aae12fc3ba/AppIcon-1x_U007emarketing-0-0-GLES2_U002c0-512MB-sRGB-0-0-0-85-220-0-0-0-3.png/246x0w.jpg"
+              class="w3-right w3-margin-right w3-margin-left" style="width:8%"></h5>
+            <h6 class="w3-margin-left w3-margin-right">September 2016 - <span class="w3-tag w3-round">Current</span></h6>
+              <p class="w3-margin-left w3-margin-right">Curatio is a chronic disease patient app that allows users to connect with private peer networks and self-management
+                tools. As an independent project through school, I have worked with the company to start a Crohn’s and Ulcerative
+                Colitis community, where I have developed the medical trackers and medical information for the patients. I have also
+                helped work on other communities, supplying medical information and finding proper resources. Health technology is an
+                area I hope to continue with and really have enjoyed seeing how technology companies work.</p>
             <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-            <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est
-              reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-          </div>
         </div>
 
-        <div class="w3-container w3-card w3-white">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-            <p>Web Development! All I need to know in one place</p>
+        <div class="w3-container w3-onehalf w3-card w3-white w3-round-xlarge">
+        <h2 class="w3-margin">EDUCATION</h2>
+            <h5 class="w3-margin-left w3-margin-right">MEDICAL SCHOOL / <b>UNIVERSITY OF BRITISH COLUMBIA</b>
+              <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple60/v4/71/64/24/716424b1-dcb1-2774-7718-7fcf590fe53c/pr_source.png/246x0w.jpg"
+              class="w3-right w3-margin-right w3-margin-left"
+              style="width:8%"></h5>
+            <h6 class="w3-margin-left w3-margin-right">September 2016 - <span class="w3-tag w3-round">Current</span></h6>
             <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>London Business School</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-            <p>Master Degree</p>
-            <hr>
-          </div>
-          <div class="w3-container">
-            <h5 class="w3-opacity"><b>School of Coding</b></h5>
-            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-            <p>Bachelor Degree</p><br>
-          </div>
         </div>
 
         <!-- End Right Column -->
       </div>
+
+    <div class="w3-quarter">
+
+      <div class="w3-container w3-white w3-round-xlarge">
+        <h3 class="w3-padding">HIGHLIGHTS</h3>
+      </div>
+
+      <br>
+
+      <div class="w3-white w3-text-grey w3-card-4 w3-round-xlarge">
+        <div class="w3-display-container">
+          <img class="w3-round-xlarge" src="https://www.med.ubc.ca/files/2017/03/BeLeaf-Hatching-Health-Team_450X300.jpg" style="width:100%" alt="Avatar">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="w3-white w3-text-grey w3-card-4 w3-round-xlarge">
+        <div class="w3-display-container">
+          <img class="w3-round-xlarge" src="./images/IMG_1487.jpg" style="width:100%" alt="Avatar">
+        </div>
+      </div>
+
+      <br>
+
+      <div class="w3-white w3-text-grey w3-card-4 w3-round-xlarge">
+        <div class="w3-display-container">
+          <img class="w3-round-xlarge" src="./images/IMG_1266.jpg" style="width:100%" alt="Avatar">
+        </div>
+      </div>
+
+
+    </div>
 
       <!-- End Grid -->
     </div>
@@ -113,14 +176,7 @@
     <!-- End Page Container -->
   </div>
 
-  <footer class="w3-container w3-teal w3-center w3-margin-top">
-    <p>Find me on social media.</p>
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <footer class="w3-container w3-white w3-center w3-margin-top">
     <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
   </footer>
 
